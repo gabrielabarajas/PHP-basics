@@ -11,7 +11,7 @@ echo "Double:  ". $varDouble."<br/>";
 echo "String:   ". $varString."<br/>";
 echo "Boolean:   ".$varBoolean."<br/>";
 
-$resBool = ($varBoolean == "1")?"true":"false";
+$resBool = ($varBoolean == 1)?"true":"false";
 echo "Boolean:   ".$resBool."<br/>";
 
 ?>
