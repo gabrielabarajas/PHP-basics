@@ -63,4 +63,13 @@ echo "Doble de M: ".($M*2)."<br/>";
 echo "La suma de totes les varables: ".$Y+$Y+$N+$M."<br/>";
 echo "El producte de totes les varables: ".$Y*$Y*$N*$M."<br/>";
 
+//Exercici 5
+$arr1=array(4,8,12,45,30);
+$arr2=array(3,6,9);
+$arrmerge = array_merge($arr1,$arr2);
+
+$size = 1+ array_key_last($arrmerge);
+echo "El tamaño de array combinado es: ".$size."<br/>";
+print_r($arrmerge); 
+
 ?>
